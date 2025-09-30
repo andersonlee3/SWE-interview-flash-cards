@@ -49,9 +49,18 @@ button {
 button:hover {
   border-color: #646cff;
 }
-button:focus,
-button:focus-visible {
+button:active {
   outline: 4px auto -webkit-focus-ring-color;
+  animation: focusRing 1s ease-out forwards;
+}
+
+@keyframes focusRing {
+  0% {
+    outline-color: -webkit-focus-ring-color;
+  }
+  100% {
+    outline-color: transparent;
+  }
 }
 
 @media (prefers-color-scheme: light) {
@@ -65,4 +74,28 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.card-text {
+  white-space: pre-line;
+  margin: 8%;
+}
+
+.card-container {
+  margin: 0 auto;
+  width: 50vw;
+  height: 30vh;
+  border: white 1px solid;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+nav {
+  margin-top: 5vh;
+  display: flex;
+  gap: 1vw;
+  justify-content: center;
 }
