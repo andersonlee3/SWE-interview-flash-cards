@@ -4,7 +4,7 @@ Submitted by: **Anderson Lee**
 
 This web app: **is meant to help applicants prepare for the technical part of the software engineer interview.**
 
-Time spent: **X** hours spent in total
+Time spent: **2** hours spent in total
 
 ## Required Features
 
